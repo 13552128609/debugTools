@@ -1,0 +1,5 @@
+{
+    "commands": {
+        "troubleshoot": "index.js"
+    }
+}

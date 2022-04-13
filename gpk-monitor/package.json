@@ -1,0 +1,24 @@
+{
+  "name": "gpk-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "start.js",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhwir/gpk-monitor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhwir/gpk-monitor/issues"
+  },
+  "homepage": "https://github.com/zhwir/gpk-monitor#readme",
+  "dependencies": {
+    "web3": "^1.2.9"
+  }
+}

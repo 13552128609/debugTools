@@ -1,0 +1,25 @@
+const RevertReason = require('./commands/revert-reason');
+const Web3 = require('web3');
+const web3 = new Web3(new Web3.providers.HttpProvider("http://192.168.1.179:18545"));
+
+//let revert = new RevertReason(
+//  web3, 
+//  "http://192.168.1.2:9545", 
+//  "0x1d95cf9ec618109306fd7990a7b781b9230c55221fd5a84938c01bd610c6063f");
+
+let revert = new RevertReason(
+  web3, 
+  "http://192.168.1.179:18545", 
+  "0x6ed8c1c2a3222e6a05ba0f8107f23381ee3d6ce5b549656e5208ba835ae5fbf4");
+revert.execute().then(console.log).catch(console.log);
+
+// const RevertReason = require('./commands/revert-reason');
+// const Web3 = require('web3');
+// const web3 = new Web3(new Web3.providers.HttpProvider("http://192.168.1.2:9545"));
+
+// let revert = new RevertReason(
+//   web3, 
+//   "http://192.168.1.2:9545", 
+//   "0xf348bd1c4f56229561ebd50be1ac70eaf63a5a2888a49f0752d9362f0f92b38f");
+
+// revert.execute().then(console.log).catch(console.log);
